@@ -1,0 +1,30 @@
+{
+  "name": "simple-jspm-project",
+  "version": "0.1.0",
+  "description": "Simple JSPM project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrKoN/simple-jspm-project.git"
+  },
+  "keywords": [
+    "jspm",
+    "sample"
+  ],
+  "author": "Oleksii Rudenko <alexei.rudenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrKoN/simple-jspm-project/issues"
+  },
+  "homepage": "https://github.com/OrKoN/simple-jspm-project#readme",
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

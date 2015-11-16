@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple JSPM app</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+  </head>
+  <body>
+    <div id="output">
+    </div>
+    <script>
+      System
+        .import('math')
+        .then(function(math) {
+          document
+            .getElementById('output')
+            .innerHTML = '1 + 2 = ' + math.plus(1, 2);
+        });
+    </script>
+  </body>
+</html>
