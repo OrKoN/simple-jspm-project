@@ -1,5 +1,7 @@
 ## Simple JSPM project
 
+[![Build Status](http://img.shields.io/travis/OrKoN/simple-jspm-project.svg?style=flat)](https://travis-ci.org/OrKoN/simple-jspm-project)
+
 This is a simple JSPM-powered project. It consists of one js module: math.js and index.html.
 
 ## Installation
