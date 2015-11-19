@@ -21,15 +21,20 @@
   },
   "homepage": "https://github.com/OrKoN/simple-jspm-project#readme",
   "jspm": {
-    "dependencies": {
-      "chai": "npm:chai@^3.4.1",
-      "jspm-testem": "github:OrKoN/jspm-testem@master",
-      "mocha": "npm:mocha@^2.3.4"
-    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4"
+      "core-js": "npm:core-js@^1.1.4",
+      "jspm-testem": "github:OrKoN/jspm-testem@master"
+    },
+    "overrides": {
+      "github:OrKoN/jspm-testem@master": {
+        "dependencies": {
+          "mocha": "*",
+          "chai": "*",
+          "lodash": "*"
+        }
+      }
     }
   },
   "devDependencies": {
