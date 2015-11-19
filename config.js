@@ -19,6 +19,7 @@ System.config({
     "chai": "npm:chai@3.4.1",
     "core-js": "npm:core-js@1.2.6",
     "jspm-testem": "github:OrKoN/jspm-testem@master",
+    "lodash": "npm:lodash@3.10.1",
     "mocha": "npm:mocha@2.3.4",
     "github:OrKoN/jspm-testem@master": {
       "chai": "npm:chai@3.4.1",
